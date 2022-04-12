@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    @apply bg-stone-900 font-body;
+  }
+  @layer components {
+    .page-container {
+      max-width: 1320px;
+      @apply mx-auto;
+    }
+  }
+  .movie-list .swiper-slide {
+    width: 300px;
+    height: auto;
+  }
+  .banner .swiper {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
